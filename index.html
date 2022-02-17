@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="CSS/Style.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Ever Drink</title>
+</head>
+
+
+<body>
+  <!--Acessibilidade em Libras-->
+  <section class="acessibilidade">
+    <div vw class="enabled">
+      <div vw-access-button class="active">
+
+      </div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Acessibilidade em Libras-->
+
+
+  <!--Modal maior de Idade-->
+  <section class="modalMaiordeIdade">
+    <div id="myModal" class="modal" tabindex="-1" style="display: block;" role="dialog"
+      aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Bem Vindo!!</h5>
+
+
+            <div class="modal-body">
+              <p>Sua idade &eacute superior a 18 anos?</p>
+
+
+              <div class="modal-body">
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Sim</button>
+
+                  </button>
+                  <a href="https://google.com"><button type="button" class="btn btn-outline-primary">Não</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Modal-->
+
+  <!--Logo da empresa-->
+  <div class="card-mb3">
+    <img class="card-img-top" src="CSS/Imagens/GinVerde.jpeg" alt="Logo da empresa">
+  </div>
+  <!--End Logo da Empresa-->
+
+
+  <!-- Barra de navegacão-->
+  <section class="barraDenavegacao">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Produtos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ProdutosGin.html">Gin</a>
+              <a class="dropdown-item" href="#">Kit Presente</a>
+              <a class="dropdown-item" href="#">Adicionais para drink</a>
+            </div>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" href="Login.html">Entre ou Cadastre-se</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fale Conosco</a>
+          </li>
+
+        </ul>
+
+        <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form> -->
+      </div>
+    </nav>
+  </section>
+  <!--End Barra de navegacão-->
+
+
+  <!--Carrosel-->
+  <section class="carrosel">
+    <div class="container" id="d-none">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="CSS/Imagens/pexels-andris-bergmanis-7851381.jpg" class="img-fluid"
+              alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="CSS/Imagens/pexels-anil-sharma-10927822.jpg" class="img-fluid"
+              alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="CSS/Imagens/cocktail-gcad7dcc5d_640.jpg" class="img-fluid"
+              alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--End Carossel-->
+
+
+  <!--Texto Home-->
+  <section class="timeline">
+    <div class="container">
+    <article class="post-interna text-center">
+     
+      <div class="post-header">
+        <h1 class="titulo w-100">História do Gin: como essa bebida ficou tão popular?</h1>
+      </div>
+  
+      <div class="post-conteudo text-justify">
+
+        <p><em>Veja quais foram os caminhos que esse destilado percorreu até chegar ao seu bar</em></p>
+
+        <p>Há quem diga que ele não passa de um simples irmão da vodca. Outras pessoas o colocam em uma posição
+          enigmática e cheia de misticismo. Independentemente da forma como o gin é definido, uma coisa ninguém pode
+          negar: a bebida tem conquistado um espaço privilegiado no universo dos destilados.</p>
+
+
+
+        <p>Conheça a <strong>história do gin</strong> e descubra quais são os segredos que estão por trás de uma das
+          bebidas mais bem apreciadas do mundo!</p>
+
+
+
+        <h2>O início de tudo</h2>
+
+
+
+        <p>Apesar de o gin ter sido apresentado ao mundo pela Inglaterra, sua história teve início na Holanda. Em meados
+          do século XVII, Francisco de la Boie, médico e professor – também conhecido como Sylvius –, dedicou-se a
+          pesquisar uma fórmula medicamentosa.</p>
+
+
+
+        <p>Na ocasião, ele estava à procura de um remédio que fosse capaz de amenizar problemas renais. Em uma das
+          tentativas, ele juntou zimbro ao destilado de cereais.&nbsp; Eis que nasce o primeiro gin da história.</p>
+
+
+
+        <p>O nome do destilado é resultado da compilação das variantes do nome do zimbro, que em holandês é
+          <em>genever</em>, <em>genievre</em> em francês e <em>ginepro</em> em italiano. A Itália, mais precisamente na
+          Toscana, é a principal região produtora de zimbro.</p>
+
+
+
+        <p>O que Sylvius não esperava era que o remédio fosse tão bem aceito a ponto de ser tomado inclusive por quem
+          não sofria de nenhum tipo de enfermidade. O sabor característico e o preço acessível fizeram com que o
+          destilado se caísse nas graças do povo.</p>
+
+
+
+        <figure class="wp-block-image"><img
+            src="https://blog.theginflavors.com.br/wp-content/uploads/2020/03/historia-do-gin-2.png"
+            alt="História do gin" class="wp-image-326"
+            srcset="https://blog.theginflavors.com.br/wp-content/uploads/2020/03/historia-do-gin-2.png 600w, https://blog.theginflavors.com.br/wp-content/uploads/2020/03/historia-do-gin-2-300x200.png 300w"
+            sizes="(max-width: 600px) 100vw, 600px"></figure>
+
+
+
+        <p>Ele foi um grande aliado dos soldados ingleses que lutavam pela Europa na Guerra dos Trinta Anos. O objetivo
+          da bebida, nesse caso, era espantar o frio. No entanto, os combatentes continuaram degustando o destilado,
+          mesmo depois de voltarem para casa.&nbsp;</p>
+
+
+
+        <p>Como já mencionamos, foi na Inglaterra que a <strong>história do gin</strong> se consolidou e o destilado
+          passou a ser consumido por um grande número de pessoas. Graças à invenção do alambique contínuo de Coffey, a
+          bebida passou a ser produzida em grande escala.</p>
+
+
+
+        <p>Em 1730, Londres já contava com a presença significativa do gin. Eram mais de 7 mil pontos de venda que
+          levavam a bebida até paladares de todas as classes sociais.</p>
+
+
+
+        <h2>Por que a história do gin é tão marcante?</h2>
+
+
+
+        <p>Desde que passou a ser produzido e comercializado pelas principais destilarias do mundo, o&nbsp; gin não
+          parou de surpreender. A principal explicação para isso pode ser encontrada em seu processo de fabricação.</p>
+
+
+
+        <p>Junto ao zimbro e ao álcool de cereais, os alquimistas que se dedicam à produção da bebida se valem do
+          domínio técnico e da criatividade para produzir rótulos peculiares. À receita base, diversos botânicos são
+          adicionados a partir de uma combinação harmônica de sabores e aromas.&nbsp;</p>
+
+
+
+        <p>Outro grande segredo do destilado é o processo de maceração. Geralmente, o gin permanece dentro de um
+          alambique de cobre por, aproximadamente, 24 horas. Nesse recipiente, são macerados, além do zimbro, vegetais
+          de diferentes tipos.</p>
+
+
+
+        <p>Vale mencionar que cada fabricante conta com seu modo de preparo da bebida. Essas receitas não são
+          compartilhadas e os segredos são guardados a 7 chaves. Esse fato dá à bebida um toque a mais de sofisticação e
+          requinte.</p>
+
+
+
+        <p>Não é a toa que a quantidade de rótulos e o sabor específico de cada um deles fazem com que o surja uma
+          variedade considerável da bebida.&nbsp; Há receitas que levam raiz de angélica, coentro, baunilha, noz
+          moscada, laranja, limão entre outros botânicos</a>.&nbsp;</p>
+
+
+
+        <p>No entanto, o destilado só pode ser considerado gin se ele contar com a presença do zimbro. A destilação é o
+          principal agente que imprime o sabor característico da bebida. Por isso, algumas marcas a redestilam para
+          potencializar a receita.&nbsp;</p>
+
+
+
+        <p>Exemplo de gin que passa pelo processo de redestilação é o London Dry. Essa versão leva em sua receita o
+          equilíbrio perfeito entre sementes de coentro, alcaçuz e raiz de angélica.&nbsp;</p>
+
+
+
+        <p>Gins ingleses desse tipo são os mais famosos do mundo. Isso se deve porque a destilação contínua faz com a
+          bebida ganhe leveza e um aroma marcante.&nbsp;Já a versão holandesa do destilado conta com um produto mais
+          encorpado devido à fabricação em alambique do tipo <em>pot</em>.</p>
+
+
+
+
+
+        </div>
+      </div>
+    </article>
+  </section>
+<!--End Texto Home-->
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <Section class="interacao">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+      <script src="APP/app.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+        }
+        );
+        myModal.show();
+      })
+
+      $('#myModal').modal({ backdrop: 'static', Keyboard: false })
+
+
+    </script>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  </Section>
+  <!--End JavaScript-->
+
+
+  <!--Rodape-->
+  <section class="rodape">
+    <blockquote class="blockquote mb-0 " style="text-align: center;">
+      <footer class="blockquote-footer">
+
+        <div class="card-footer">
+          <h6> Contato</h6>
+          <small class="text-muted  ">
+
+            <img src="CSS/icons/baseline_whatsapp_black_24dp.png" alt="Watshapp">
+            <i class="material-icons-what"> (54)99456-3144</i><b></b>
+
+            <img src="CSS/icons/outline_email_black_24dp.png" alt="E-mail">
+            <i class="material-icons-email">everdrink@gmail.com</i><b></b>
+
+            <img src="CSS/icons/outline_location_on_black_24dp.png" alt="Endereço">
+            <i class="material-icons-local">Santa Maria - RS</i><b></b>
+          </small>
+        </div>
+      </footer>
+    </blockquote>
+  </section>
+  <!--End Rodape-->
+</body>
+
+</html>
